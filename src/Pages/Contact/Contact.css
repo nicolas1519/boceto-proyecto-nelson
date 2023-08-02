@@ -1,0 +1,6 @@
+.wrapperContact{
+    display: grid;
+    place-items: center;
+    height: 150px;
+    font-size: 30px;
+}

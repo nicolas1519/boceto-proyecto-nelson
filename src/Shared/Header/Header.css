@@ -1,0 +1,42 @@
+header{
+}
+
+.wrapperHeader{
+    padding: 10px 50px;
+    background: #EBEBEB;
+}
+
+.containerHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerHeader .logoIcon{
+    height: 60px;
+}
+
+.containerHeader nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.containerHeader nav *{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.containerHeader .otherOptions{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.containerHeader .otherOptions .itemOtherOptions{
+    display: flex;
+    width: 25px;
+    height: 25px;
+    background: lightsalmon;
+}
+
